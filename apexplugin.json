@@ -36,8 +36,8 @@
             "plugin": {
                 "internalName": "COM.SHERY.IG_DUPLICATE_VALIDATOR",
                 "type": "dynamic action",
-                "demo": "",
-                "previewImage": ""
+                "demo": "https://oracleapex.com/ords/r/sheharyar/learning/interactive-grid-plugin",
+                "previewImage": "https://github.com/oracle-apex-developer/apex-ig-duplicate-validator/blob/main/Inserted%20Rows%20by%20JavaScript.png"
             }
         }
     }
