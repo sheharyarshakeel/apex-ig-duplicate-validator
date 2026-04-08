@@ -1,33 +1,33 @@
 {
-  "name" : "IG Duplicate Row Validator",
-  "version" : "1.0.0",
-  "description" : "An Oracle APEX Dynamic Action Plugin that validates duplicate rows in Interactive Grids based on 1-5 configurable columns. Provides real-time client-side validation on cell change, IG save, and page submit with row highlighting and error messaging.",
-  "keywords" : ["Interactive Grid", "Duplicate Validation", "IG Plugin", "Dynamic Action", "Oracle APEX", "Row Validation", "Duplicate Detection"],
-  "homepage" : "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator",
-  "bugs" : {
-    "url" : "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator/issues",
-    "email" : "shakeelsheharyar@gmail.com"
+  "name": "IG Duplicate Row Validator",
+  "version": "1.0.0",
+  "description": "An Oracle APEX Dynamic Action Plugin that validates duplicate rows in Interactive Grids based on 1-5 configurable columns. Provides real-time client-side validation on cell change, IG save, and page submit with row highlighting and error messaging.",
+  "keywords": ["oracle-apex", "plugin", "interactive-grid", "validation", "duplicate", "dynamic-action"],
+  "homepage": "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator",
+  "bugs": {
+    "url": "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator/issues",
+    "email": "shakeelsheharyar@gmail.com"
   },
-  "license" : "MIT",
-  "commercial" : "No",
-  "author" : {
-    "name" : "Sheharyar Shakeel",
-    "email" : "shakeelsheharyar@gmail.com",
-    "url" : "https://www.linkedin.com/in/oracle-developer/"
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Sheharyar Shakeel",
+    "email": "shakeelsheharyar@gmail.com",
+    "url": "https://www.linkedin.com/in/oracle-developer/"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheharyarshakeel/apex-ig-duplicate-validator.git"
   },
- "oracle" : {
-    "versions" : ["19.0.0.0", "21.0.0.0", "23.0.0.0"],
-    "apex" : {
-      "versions" : ["24.1", "24.2"],
-      "plugin" : {
-        "internalName" : "COM.SHERY.IG_DUPLICATE_VALIDATOR",
-        "type" : "dynamic action",
-        "demo" : "https://oracleapex.com/ords/r/sheharyar/learning/interactive-grid-plugin",
-        "previewImage" : "https://raw.githubusercontent.com/sheharyarshakeel/apex-ig-duplicate-validator/main/Composite%20Column%20Validation.png"
+  "oracle": {
+    "versions": ["19.0.0.0", "21.0.0.0", "23.0.0.0"],
+    "apex": {
+      "versions": ["24.1.0", "24.2.0"],
+      "plugin": {
+        "internalName": "COM.SHERY.IG_DUPLICATE_VALIDATOR",
+        "type": "dynamic action",
+        "demo": "https://oracleapex.com/ords/r/sheharyar/learning/interactive-grid-plugin",
+        "previewImage": "https://raw.githubusercontent.com/sheharyarshakeel/apex-ig-duplicate-validator/main/Composite%20Column%20Validation.png"
       }
     }
   }
