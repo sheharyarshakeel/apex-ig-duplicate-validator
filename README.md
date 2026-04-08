@@ -53,7 +53,7 @@ This plugin provides real-time, client-side validation for Interactive Grids (IG
 * In the Property Editor, go to **Attributes** > **Static ID**.
 * Enter a unique ID (e.g., `MY_IG_REGION`).
     ## Setup Plugin
-    ![alt text](<https://github.com/oracle-apex-developer/apex-ig-duplicate-validator/blob/main/Single%20Column%20Validation.png>)
+    ![alt text](<https://github.com/oracle-apex-developer/apex-ig-duplicate-validator/blob/main/Plugin_Setup_Image.png>)
 
 ### 2. Create Dynamic Action
 * **Event:** `Change`
