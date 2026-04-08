@@ -4,6 +4,12 @@ The seamless way to prevent duplicate entries in Oracle APEX Interactive Grids.
 
 This plugin provides real-time, client-side validation for Interactive Grids (IG). It ensures data integrity by preventing users from entering duplicate values—whether based on a single column or a composite key of up to 5 columns—before the data even reaches the database.
 
+
+[Demo](https://oracleapex.com/ords/r/sheharyar/learning/interactive-grid-plugin)
+Example
+![alt text](<Inserted Rows by JavaScript-1.png>)
+
+
 ---
 
 ## ✨ Features
@@ -11,7 +17,7 @@ This plugin provides real-time, client-side validation for Interactive Grids (IG
 * ✅ **Real-time Validation** – Detects duplicates instantly as soon as a cell change occurs.
 * ✅ **Composite Key Support** – Configure 1 to 5 columns to define what constitutes a "duplicate" (e.g., Project + Task + Date).
 * ✅ **Visual Feedback** – Duplicate rows are automatically highlighted in red with a distinct left border for high visibility.
-* ✅ **Native Save Blocking** – Uses the APEX native `setValidity` API to automatically block IG Save actions and Page Submissions.
+* ✅ **Native Save Blocking** – Uses the APEX native API to automatically block IG Save actions and Page Submissions.
 * ✅ **Multi-IG Support** – Works independently on multiple Interactive Grids on the same page.
 * ✅ **Universal Column Support** – Compatible with Text, Number, Select List, and Date columns.
 * ✅ **Smart Comparison** – Case-insensitive matching and automatic whitespace handling (leading/trailing spaces ignored).
